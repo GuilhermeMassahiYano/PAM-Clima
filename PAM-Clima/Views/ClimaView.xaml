@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAM_Clima.Views.ClimaView"
+             Title="ClimaView">
+    <VerticalStackLayout>
+
+        <Image
+     Source="parcialmente_nublado.png"
+     WidthRequest="200"
+     x:Name="condicaoImage"/>
+        <Label Text="Chovendo Muito"
+            x:Name="CondicaoLabel"/>
+
+        <HorizontalStackLayout>
+
+            <Label Text="Minima"/>
+
+            <Label Text="0"
+             x:Name="TemparaturaMinimaLabel"/>
+            
+            <Label Text="Maxima"/>
+            
+            <Label Text="99"
+             x:Name="TemperaturaMaximaLabel"/>
+
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+
+            <Image 
+                Source="nublado.png"
+                WidthRequest="70"
+                x:Name="CondicaoImage1"/>
+
+
+        </HorizontalStackLayout>
+        
+    </VerticalStackLayout>
+</ContentPage>
