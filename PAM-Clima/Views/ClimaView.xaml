@@ -12,6 +12,9 @@
         <Label Text="Chovendo Muito"
             x:Name="CondicaoLabel"/>
 
+        <Label x:Name="CidadeLabel"
+               Text="{Binding Cidade}"/>
+
         <HorizontalStackLayout>
 
             <Label Text="Minima"/>

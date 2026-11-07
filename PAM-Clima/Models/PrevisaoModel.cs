@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using PAM_Clima.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,9 +12,9 @@ namespace PAM_Clima.Models
 
         private string Estado;
 
-        private DateTime Atualizado;
+        private DateTime Atualizado_em;
 
         private List<ClimaModel> clima;
-     
+
     }
 }

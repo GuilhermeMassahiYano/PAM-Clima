@@ -1,4 +1,5 @@
 using PAM_Clima.Models;
+using PAM_Clima.ViewModels;
 
 namespace PAM_Clima.Views;
 
@@ -7,8 +8,7 @@ public partial class ClimaView : ContentPage
 	public ClimaView()
 	{
 		InitializeComponent();
-		ClimaModel climaModel = new ClimaModel();
-		climaModel.Data = DateTime.Now;
+		BindingContext = new ClimaViewModels();
 
 	}
 }
